@@ -18663,6 +18663,7 @@ exports.createEditSession = function(text, mode) {
     doc.setUndoManager(new UndoManager());
     return doc;
 }
+exports.define = ace.define;
 exports.EditSession = EditSession;
 exports.UndoManager = UndoManager;
 exports.version = "1.2.3";
